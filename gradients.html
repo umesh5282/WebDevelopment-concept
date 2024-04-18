@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Gradients</title>
+    <style>
+        .container{
+        display: flex;
+        flex-wrap: wrap;
+        }   
+        .container div{
+            height: 300px;
+            width: 300px;
+            border: 1px solid black;
+            margin: 20px;
+        }
+       .a{
+        background-image: linear-gradient(red,yellow);
+       }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="a">
+        Box 1
+       </div >
+       <div style="background-image: linear-gradient(yellow,red);">
+        Box 2
+       </div>
+       <div style="background-image: linear-gradient(to top left,red,yellow);">
+        Box 3
+       </div>
+       <div style="background-image: linear-gradient(to top right,red,yellow);">
+        Box 4
+       </div>
+
+
+       <div style="background-image:radial-gradient(red , yellow);">
+        Box 5
+       </div>
+       <div style="background-image: radial-gradient(yellow , red);">
+        Box 6
+       </div>
+       <div style="background-image: radial-gradient(rgb(255, 0, 0),rgba(122,140,164,0.5));">   
+        
+             <!-- rgba   a is used for offset mean shadow down -->
+        Box 7
+       </div>
+       <div style="background-image: radial-gradient(red 20%,yellow 20%);">
+        Box 8
+       </div>
+       <div style="background-image: radial-gradient(red 50%,yellow 50%);">
+        Box 9
+       </div>
+       <div style="background-image: radial-gradient(red, yellow 20%);">
+        Box 9
+       </div>
+       <div style="background-image: radial-gradient(red 20%,yellow 50%);">
+        Box 10
+       </div>
+         
+    </div>
+</body>
+</html>

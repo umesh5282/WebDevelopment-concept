@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+  .container{
+     display: grid;
+     grid-template-columns: 3fr 6fr 3fr;
+  }
+  header, footer{
+    background-color: aqua;
+    color: black;
+  }
+  header{
+    grid-row: 1;
+    grid-column: 1/4;
+  }
+  section{
+    grid-row: 3;
+    grid-column: 1/4;
+    height: 100px;
+    display: grid;
+background-color:orange;
+  }
+  footer{
+    grid-row: 2;
+    grid-column: 1/4;
+  }
+  aside{
+    grid-row: 2;
+    grid-column: 3;
+  }
+  main{
+    grid-row: 2;
+    grid-column: 2;
+  }
+  nav{
+    grid-row: 2;
+    grid-column: 1;
+  }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <h1>Amazon Shopping</h1>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact Us</li>
+                </ul>
+            </nav>
+            <main>
+                <h3>Shop | online   </h3>
+                    <p>Special Offer on Footwear</p>
+             
+            </main>
+            <aside>
+                50% OFF
+            </aside>
+        </section>
+        <footer>
+            <p>&copy; Copyright2024</p>
+        </footer>
+    </div>
+</body>
+</html>

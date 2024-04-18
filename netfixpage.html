@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix|Home</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        body {
+            background-image: url(assets/Netflixfront.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            
+        }
+
+        .backcolor {
+            height: 733px;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+
+        }
+
+        .tittle {
+            font-size: 40px;
+            color: red;
+            margin-left: 150px;
+        }
+
+        .main-title {
+            font-family: arial;
+            font-size: 40px;
+            font-weight: bold;
+            width: 800px;
+        }
+
+        .sub-title {
+            font-family: Arial;
+            font-size: 20px;
+
+        }
+        .banners{
+            height:200%;
+            background-color: rgba(0, 0,0, 1);
+            border-top:gray 10px solid;
+            border-bottom: gray 10px solid;
+
+        }
+        .item1{
+            
+            border-bottom: gray 10px solid;
+        }
+        .footer{
+            height:50px;
+            background-color: rgba(0, 0,0, 1);
+            border-top:gray 10px solid;
+            border-bottom: gray 10px solid;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="backcolor">
+        <header class="d-flex justify-content-between p-3">
+            <div class="tittle">
+                NETFLIX
+            </div>
+            <div>
+                <div class="d-flex" style="margin-right: 100px;">
+                    <div class="dropdown me-3">
+                        <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown"><span
+                                class="bi bi-globe"></span> Language</button>
+                        <div class="dropdown-menu collapse">
+                            <div class="dropdown-item">
+                                <span>English</span>
+                            </div>
+                            <div class="dropdown-item">
+                                <span>हिंदी</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn btn-danger">Singup</div>
+                </div>
+            </div>
+        </header>
+
+        <section class="d-flex justify-content-center align-items-center text-center " style="height: 640px;">
+            <div>
+                <p class="main-title">Unlimited movies, TV shows and more</p>
+                <p class="sub-title">Watch anywhere. Cancel anytime.</p>
+
+                <div>
+                    <p class="register-titile">Ready to watch? Enter your email to create or restart your membership.
+                    </p>
+                    <div class="input-group input-group-lg">
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                        <button class="btn btn-danger">
+                            Get Started <span class="bi bi-cheveron-right"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="banners">
+
+
+                <div  class=" item1 d-flex justify-content-between align-items-center  mt-3" style="height: 300px;">
+                    <div class="m-5  " style="font-size: 25px;"> 
+                        <h1>Enjoy on your TV</h1>
+                        <p >
+                        Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+                    </div>
+                   
+                    <img src="assets/Bathroom hardware.jpg "  style="height: 200px; width: 400px;margin-right: 150px;">
+                 </div>
+                    
+
+                 <div  class=" item1 d-flex justify-content-between align-items-center  mt-3" style="height: 300px;">
+                    <img src="assets/Bathroom hardware.jpg "  style="height: 200px; width: 400px;margin-left: 150px;">
+                    <div class="m-5  " style="font-size: 25px;"> 
+                        <h1>Download your shows to watch offline</h1>
+                        <p >Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+                    </div>
+                 </div>
+
+
+                 <div  class=" item1 d-flex justify-content-between align-items-center  mt-3" style="height: 300px;">
+                    <div class="m-5  " style="font-size: 25px;"> 
+                        <h1>Watch everywhere</h1>
+                        <p >Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+                    </div>
+                   
+                    <img src="assets/Bathroom hardware.jpg "  style="height: 200px; width: 400px;margin-right: 150px;">
+    
+                 </div>
+
+            <main class="d-flex justify-content-center align-items-center  mt-5">
+                <div style="width: 600px;">
+                    <h1 class="d-flex justify-content-center align-items-center mb-3">Frequently Asked Questions</h1>
+                    <div class="accordion" id="faq">
+    
+                        <div class="accordion-item mb-3">
+                            <div class="accordion-header bg-dark d-flex justify-content-between p-2">
+                                <div style="color: white;">
+                                    <h3>What is Netflix</h3>
+                                </div>
+                                <div>
+                                    <button class="btn btn-dark w-100 " data-bs-toggle="collapse" data-bs-target="#topic">
+                                        <span class="bi bi-plus-lg"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="accordion-body bg-dark text-white accordion-collapse collapse" id="topic"
+                                data-bs-parent="#faq">
+                                <p>somthing about css ypur use of thsis softwarw is subject to the </p>
+                            </div>
+                        </div>
+    
+                        <div class="accordion-item mb-3">
+                            <div class="accordion-header bg-dark d-flex justify-content-between p-2">
+                                <div style="color: white;">
+                                    <h3>How much does Netflix cost?</h3>
+                                </div>
+                                <div>
+                                    <button class="btn btn-dark w-100" data-bs-toggle="collapse" data-bs-target="#topic2">
+                                        <span class="bi bi-plus-lg"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="accordion-body bg-dark text-white accordion-collapse collapse" id="topic2"
+                                data-bs-parent="#faq">
+                                <p>ukle,mjsnd s to th e is helli oprusrtiions aplle banana mango </p>
+                            </div>
+                        </div>
+    
+                        <div class="accordion-item mb-3">
+                            <div class="accordion-header bg-dark text-white d-flex justify-content-between p-2">
+                                <div>
+                                    <h2>how does </h2>
+                                </div>
+                                <div>
+                                    <button class="btn btn-dark w-100 " data-bs-toggle="collapse" data-bs-target="#topic3">
+                                        <span class="bi bi-plus-lg"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="accordion-body bg-dark text-white accordion-collapse collapse " id="topic3" data-bs-parent="#faq"> 
+                                <p>xbcwf sfs  cifhbc cawifhhc sh2qw ee8herrb dwbckzcc.aczxcshc c</p>
+                            </div>
+                        </div>
+    
+                    </div>
+                    <div class="mt-5">
+                        <p class="register-titile">Ready to watch? Enter your email to create or restart your membership.
+                        </p>
+                        <div class="input-group input-group-lg">
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                            <button class="btn btn-danger">
+                                Get Started <span class="bi bi-cheveron-right"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+        </div>
+        <footer class="footer">
+            <div class="d-flex justify-content-center align-items-center">
+                <a>Questions? Call 000-800-919-1694</a>
+            </div>
+        </footer>
+        
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

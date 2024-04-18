@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" herf="..node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="container-fluid  ">
+        <div class="d-flex justify-content-center align-items-center " style="height:600px;">
+            <div>
+                <h2>Register form</h2>
+                <div>
+                    <div class="mb-2">
+                        <label for="username">User name </label>
+                        <div> <input type="text" name="username" class="form-control"></div>
+
+                        <label for="password">Password</label>
+                        <div>
+                            <input type="password" name="password">
+                        </div>
+                    </div>
+
+                    <label>choose city</label>
+                    <div class="mb-2">
+                        <select name="city" class="form-select">
+                            <option>Select your City</option>
+                            <option>Delhi</option>
+                            <option>Indore</option>
+                            <option>Mumbai</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-2">
+                        <label for="Subscribe">You want to Subscribe</label>
+
+                        <div class="form-switch ">
+                            <input type="checkbox" name="Subscribe" class="form-check-input">
+                            <label>yes</label>
+                        </div>
+                    </div>
+                    
+                    <label for="age" class="form-label">Select Age</label>
+                    <div class="mb-2">
+                        <input type="range" name="range">
+                    </div>
+
+                    <div>
+                        <button class="btn btn-primary w-100">Submit</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+
+
+</html>

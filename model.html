@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootStrap Model Properties</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    
+</head>
+<body>
+    
+    <div class="container-fluid">
+   <h2> Modal</h2>
+   <button class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#registermodal">register</button>
+   <button class="btn btn-secondary">login</button>
+   
+
+  <div class="modal" id="registermodal">
+       <div class="modal-dialog"> 
+        <div clas="Modal-content">
+            <div class="modal-header">
+                <h3 class="model-title">Register form </h3>
+                <button class="btn btn-close"> </button>
+            </div>
+            <div class="modal-body">
+                <dl>
+                    <dt>User Name </dt>
+                    <dd><input type="text"></dd>
+                    <dt>Password</dt>
+                    <dd><input type="password"></dd>
+                </dl>
+            </div>
+        <div class="modal-footer"> 
+            <button class="btn btn-danger"> Register</button>
+    
+        </div>
+        </div>
+
+       </div>
+  </div>
+
+    </div>
+
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
